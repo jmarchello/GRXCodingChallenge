@@ -35,6 +35,7 @@ const TitleBarWrapper = styled.div`
 
     & .close-icon {
       opacity: .3;
+      cursor: pointer;
     }
   }
 `;

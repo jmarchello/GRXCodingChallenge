@@ -25,11 +25,9 @@ Icon.propTypes = {
 export default Icon;
 
 const IconWrapper = styled.div`
-  width: 14px;
-
   & .icon {
-    height: 100%;
-    width: 100%;
+    height: 14px;
+    width: 14px;
     background: url(${sprite}) no-repeat;
     background-position-x: ${({type}) => iconLocations[type]};
   }

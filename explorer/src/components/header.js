@@ -2,21 +2,21 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-const LabelBar = ({ label }) => (
-  <LabelBarWrapper>
+const Header = ({ label }) => (
+  <HeaderWrapper>
     <div>
       {label}
     </div>
-  </LabelBarWrapper>
+  </HeaderWrapper>
 );
 
-LabelBar.propTypes = {
+Header.propTypes = {
   label: PropTypes.string
 }
 
-export default LabelBar;
+export default Header;
 
-const LabelBarWrapper = styled.div`
+const HeaderWrapper = styled.div`
   padding: .75rem;
   border-bottom: solid 1px #e8e8e8;
 
