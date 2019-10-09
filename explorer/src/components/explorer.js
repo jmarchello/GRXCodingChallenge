@@ -11,9 +11,13 @@ const Explorer = () => {
     <ExplorerWrapper>
       <div id="explorer">
         <TitleBar title="Title" />
-        <Header label="Label" />
+        <Header>
+          Label
+        </Header>
         <FileTree fileData={data} />
-        <Footer />
+        <Footer>
+          <a href='#'>Link</a>
+        </Footer>
       </div>
     </ExplorerWrapper>
   );
@@ -36,7 +40,7 @@ const ExplorerWrapper = styled.div`
     height: 640px;
     width: 340px;
     border: solid lightgray 1px;
-    border-radius: 10px;
+    border-radius: 7px;
     background-color: white;
   }
 `
