@@ -1,12 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
 import TitleBar from './titleBar';
+import LabelBar from './labelBar';
 
 const Explorer = () => {
   return (
     <ExplorerWrapper>
       <div id="explorer">
         <TitleBar title="Title" />
+        <LabelBar label="Label" />
       </div>
     </ExplorerWrapper>
   );
@@ -28,7 +30,7 @@ const ExplorerWrapper = styled.div`
     box-shadow: 0 20px 50px 15px lightgray;
     height: 640px;
     border: solid lightgray 1px;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: white;
   }
 `
